@@ -1,2 +1,2 @@
-# oracleDBTester
-Oracle Database Connection Tester Container.
+# Oracle Database Connection Tester Container
+Runnable Container.
