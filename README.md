@@ -1,10 +1,10 @@
 # Oracle Database Connection Tester in Container
 
-Runnable Container or standalone jar.
+Runnable container or standalone jar.
 
 <!-- vscode-markdown-toc -->
 * 1. [Summary](#Summary)
-* 2. [Java Code - Know-How](#SharedKnow-How)
+* 2. [Java Code](#JavaCode)
 * 3. [Product Versions](#ProductVersions)
 * 4. [PreRequirements](#PreRequirements)
 * 5. [How can you run container version](#RunContainer)
@@ -23,7 +23,7 @@ Runnable Container or standalone jar.
 # How can you test oracle database connection in 2 minutes...
 * 🧿
 
-***Disclaimer:** If you are planning to open this diagnosing tool to public, It is highly recommended to change the rules implemented inside ODM which combines symptoms and diseases with the help of a health professional before going live.*
+***Disclaimer:** If you are planning to use this standalone jar version please check your java version in your enviorment..*
 
 ##  1. <a name='Summary'></a>Summary
 
@@ -37,7 +37,7 @@ All of the rulesets implemented inside ODM can easily be changed with the light 
 
 ![](https://raw.githubusercontent.com/DBA-Turkiye/DiagnoseCovid19/master/Documentation/images/Scenario.png)
 
-##  2. <a name='SharedKnow-How'></a>Shared Know-How
+##  2. <a name='JavaCode'></a>Java Code
  * IBM BAW:
     * Implementing a workflow
     * Implementing user interfaces 
