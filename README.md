@@ -2,18 +2,16 @@
 
 Runnable Container or standalone jar.
 
-docker push gokcenk/oracledbtester:latest
-
 <!-- vscode-markdown-toc -->
 * 1. [Summary](#Summary)
 * 2. [Java Code - Know-How](#SharedKnow-How)
 * 3. [Product Versions](#ProductVersions)
 * 4. [PreRequirements](#PreRequirements)
-* 5. [How can you run container version](#ODM-OperationalDecisionManager)
-	* 5.1. [In Docker](#Importingthedecisionservice)
-	* 5.2. [In Kubernetes](#Deployingtheservice)
-	* 5.3. [In Openshift](#ExposingtheruleviaRESTAPI)
-* 6. [How can you run jar version]
+* 5. [How can you run container version](#RunContainer)
+	* 5.1. [In Docker](#InDocker)
+	* 5.2. [In Kubernetes](#InKubernetes)
+	* 5.3. [In Openshift](#InOpenshift)
+* 6. [How can you run jar version](#RunJarVerison)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -29,7 +27,7 @@ docker push gokcenk/oracledbtester:latest
 
 ##  1. <a name='Summary'></a>Summary
 
-This asset is created to show how to define a workflow inside [IBM BAW](https://www.ibm.com/products/business-automation-workflow) (Business Automation Workflow) including UI designs, service integration, database integration and ODM integration. It also gives information about how to integrate workflow data with [IBM BAI](https://www.ibm.com/support/knowledgecenter/SSYHZ8_19.0.x/com.ibm.dba.bai/topics/con_bai_overview.html) (Business Automation Insights) and generate custom graphics and reports from the data transferred to BAI. 
+This asset is created to show how to test oracle database with in 2 minutes.how to define a workflow inside [IBM BAW](https://www.ibm.com/products/business-automation-workflow) (Business Automation Workflow) including UI designs, service integration, database integration and ODM integration. It also gives information about how to integrate workflow data with [IBM BAI](https://www.ibm.com/support/knowledgecenter/SSYHZ8_19.0.x/com.ibm.dba.bai/topics/con_bai_overview.html) (Business Automation Insights) and generate custom graphics and reports from the data transferred to BAI. 
 
 It can be used by Ministry of Health or healthcare organizations in order to gather symptoms, disease history and physical information from citizens and diagnose if they are infected by COVID-19 or not.  It also helps these organizations to manage inform the citizens and conduct the emergency situations like quarantine / sending ambulance / monitoring the patient during home quarantine if required. 
 
