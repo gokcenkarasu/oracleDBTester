@@ -3,6 +3,7 @@
 Runnable container or standalone jar.
 
 <!-- vscode-markdown-toc -->
+
 * 1. [Summary](#Summary)
 * 2. [Java Code](#JavaCode)
 * 3. [Product Versions](#ProductVersions)
@@ -46,10 +47,10 @@ All of the rulesets implemented inside ODM can easily be changed with the light 
 
 ##  5. <a name='RunContainer'></a>How can you run container version?
 
-#  5.1. <a name='InDocker'></a>In Docker
+###  5.1. <a name='InDocker'></a>In Docker
 
-#  5.2. <a name='InKubernetes'></a>In Kubernetes
+###  5.2. <a name='InKubernetes'></a>In Kubernetes
 
-#  5.2. <a name='InOpenshift'></a>In Openshift
+###  5.2. <a name='InOpenshift'></a>In Openshift
 
 ##  6. <a name='RunJarVerison'></a>How can you run container version?
