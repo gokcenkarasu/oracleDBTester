@@ -38,25 +38,18 @@ All of the rulesets implemented inside ODM can easily be changed with the light 
 ![](https://raw.githubusercontent.com/DBA-Turkiye/DiagnoseCovid19/master/Documentation/images/Scenario.png)
 
 ##  2. <a name='JavaCode'></a>Java Code
- * IBM BAW:
-    * Implementing a workflow
-    * Implementing user interfaces 
-    * Implementing service integrations
-    * How to call ODM services
-    * Database integration
-    * Views
-    * Sending E-mail
-    * Integrate date to IBM BAI using emitters
-* IBM ODM:
-    * Implementing a Decision Service on IBM ODM
-    * Implement rules using decision tables
-    * Implement rules by using if/then/else statements
-    * Deploy a decision service. 
-    * Test decision service through REST API. 
-* IBM BAI:
-	* Transfer data from BPM & ODM
-	* Creating dashboards from collected data. 
-	* Using emitters to collect data. 
+ * 
+ 
+##  3. <a name='ProductVersions'></a>Product Version
 
+##  4. <a name='PreRequirements'></a>Pre-Requirments
 
+##  5. <a name='RunContainer'></a>How can you run container version?
 
+##  5.1. <a name='InDocker'></a>In Docker
+
+##  5.2. <a name='InKubernetes'></a>In Kubernetes
+
+##  5.2. <a name='InOpenshift'></a>In Openshift
+
+##  6. <a name='RunJarVerison'></a>How can you run container version?
