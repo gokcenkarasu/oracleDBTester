@@ -1,6 +1,6 @@
 # Oracle Database Connection Tester in Container
 
-Runnable container or standalone jar.
+Runnable container or standalone.
 
 <!-- vscode-markdown-toc -->
 
@@ -21,7 +21,7 @@ Runnable container or standalone jar.
 <!-- /vscode-markdown-toc -->
 
 
-# How can you test oracle database connection in 2 minutes...
+# How to test oracle database connection in 2 minutes...
 * 🧿
 
 ***Disclaimer:** If you are planning to use this standalone jar version please check your java version in your enviorment..*
