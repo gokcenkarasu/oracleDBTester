@@ -41,11 +41,14 @@ Both of them are using the same java codes that you can find details below.
 ##  2. <a name='JavaCode'></a>Java Code
 
 * I developed Javacode with 1.8 JDK in Eclipse development enviorment. 
- 	There are 3 Classes to run this jar program. 
+ 	
+	There are 3 Classes to run this jar program. 
 	
-	** 1- ConnectionInfo = This is static abstraction class to use collecting data from getting user.
-	** 2- ConnectionOracle = This includes runnable method and is using to get some information from user. it has time units sleep method to wait thread until wait to runnig containers. TimeUnit.SECONDS.sleep(8);`
-	** 3- OracleConTest = This is main method which include all conenctions methods.	
+	** 1- ConnectionInfo = This is static abstraction class to use collecting data from getting user. 
+	
+	** 2- ConnectionOracle = This includes runnable method and is using to get some information from user. it has time units sleep method to wait thread until wait to runnig containers. `TimeUnit.SECONDS.sleep(8);`
+	
+	** 3- OracleConTest = This is main method which include all conenctions methods.
 	
 	
 	There are 3 diffrent approches tester to connection test
