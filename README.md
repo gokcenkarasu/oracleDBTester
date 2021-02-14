@@ -35,8 +35,8 @@ Sometimes deployment processes take long time so it is long time to take results
 This asssets help to test oracle db connection on continarized systems. 
 
 There are 2 different option to use this tester. 
-	#### Fist one is contianer base system. 
-	#### Second one is Jar base system. 
+	* Fist one is contianer base system. 
+	* Second one is Jar base system. 
 Both of them are using the same java codes that you can find details below. 
 
 ##  2. <a name='JavaCode'></a>Java Code
