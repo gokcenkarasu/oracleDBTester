@@ -28,15 +28,16 @@ Runnable container or standalone.
 
 ##  1. <a name='Summary'></a>Summary
 
-This asset is created to show how to test oracle database with in 2 minutes.how to define a workflow inside [IBM BAW](https://www.ibm.com/products/business-automation-workflow) (Business Automation Workflow) including UI designs, service integration, database integration and ODM integration. It also gives information about how to integrate workflow data with [IBM BAI](https://www.ibm.com/support/knowledgecenter/SSYHZ8_19.0.x/com.ibm.dba.bai/topics/con_bai_overview.html) (Business Automation Insights) and generate custom graphics and reports from the data transferred to BAI. 
+This asset is created to show how to test oracle database with in 2 minutes. 
 
-It can be used by Ministry of Health or healthcare organizations in order to gather symptoms, disease history and physical information from citizens and diagnose if they are infected by COVID-19 or not.  It also helps these organizations to manage inform the citizens and conduct the emergency situations like quarantine / sending ambulance / monitoring the patient during home quarantine if required. 
+Sometimes deployment processes take long time so it is long time to take results sucsess or fail.For example some deployment with using OpenShift operators take 30minutes to complete it. They we need to check pre-requirments before the deployment processes.
 
-Required rules to diagnose symptoms are defined inside [IBM ODM](https://www.ibm.com/products/operational-decision-manager) (Operational Decision Manager) to make them easy to change quickly without the need of IT. 
-It is very important to provide a flexible and easy to change platform in such situations. Since it is a new epidemic and each day as citizens, we and health organizations are learning a new behaviour of this virus. So, the symptoms and affect on cronical diseases may differ day by day.  
-All of the rulesets implemented inside ODM can easily be changed with the light of recommendations of medical boards. 
+This asssets help to test oracle db connection on continarized systems. 
 
-![](https://raw.githubusercontent.com/DBA-Turkiye/DiagnoseCovid19/master/Documentation/images/Scenario.png)
+There are 2 different option to use this tester. 
+	#### Fist one is contianer base system. 
+	#### Second one is Jar base system. 
+Both of them are using the same java codes that you can find details below. 
 
 ##  2. <a name='JavaCode'></a>Java Code
  * 
