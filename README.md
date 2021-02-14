@@ -46,13 +46,27 @@ Both of them are using the same java codes that you can find details below.
 * I developed Javacode with 1.8 JDK in Eclipse development enviorment. 
  	There are 3 Classes to run this jar program. 
 	
-	1- ConnectionInfo = This is static abstraction class to use collecting data from getting user.
-	2- ConnectionOracle = This includes runnable method and is using to get some information from user. 
-	3- OracleConTest = This is main method which include all conenctions methods. 
+	**** 1- ConnectionInfo = This is static abstraction class to use collecting data from getting user.
+	**** 2- ConnectionOracle = This includes runnable method and is using to get some information from user. 
+	**** 3- OracleConTest = This is main method which include all conenctions methods.	
+	
+	
+	There are 3 diffrent approches tester to connection test
+		1. It will generate URL string which it will get parameters from you
+		2. It will generate URL string without Username and Password
+		3. It will generate URL string and properties
+
+If you want to selet once, the program execute only it, if you enter the "ALL" keyword, the program executes all of them to test it. 
+
  
-##  3. <a name='ProductVersions'></a>Product Version
+##  3. <a name='ProductVersions'></a>Product Versions
+	
+	This is 1.3 version of program. 
+	I used Java 1.8 so If you are planning to use this standalone jar version please check your java version in your enviorment. Also want to use container version of program , you have to at least on of Docker, Podman, Kubernetes or Openshift platforms.  
 
 ##  4. <a name='PreRequirements'></a>Pre-Requirments
+
+	
 
 ##  5. <a name='RunContainer'></a>How can you run container version?
 
