@@ -47,7 +47,7 @@ Both of them are using the same java codes that you can find details below.
  	There are 3 Classes to run this jar program. 
 	
 	**** 1- ConnectionInfo = This is static abstraction class to use collecting data from getting user.
-	**** 2- ConnectionOracle = This includes runnable method and is using to get some information from user. 
+	**** 2- ConnectionOracle = This includes runnable method and is using to get some information from user. it has time units sleep method to wait thread until wait to runnig containers.
 	**** 3- OracleConTest = This is main method which include all conenctions methods.	
 	
 	
@@ -62,18 +62,31 @@ If you want to selet once, the program execute only it, if you enter the "ALL" k
 ##  3. <a name='ProductVersions'></a>Product Versions
 	
 	This is 1.3 version of program. 
+	
 	I used Java 1.8 so If you are planning to use this standalone jar version please check your java version in your enviorment. Also want to use container version of program , you have to at least on of Docker, Podman, Kubernetes or Openshift platforms.  
 
 ##  4. <a name='PreRequirements'></a>Pre-Requirments
 
-	
+	For Jar version;
+		1.8 Java JRE, Oracle Databese version 19x 
+	For Contanirazed version;
+		
 
 ##  5. <a name='RunContainer'></a>How can you run container version?
 
 ###  5.1. <a name='InDocker'></a>In Docker
 
+ docker run -it --rm oracledbtester
+
 ###  5.2. <a name='InKubernetes'></a>In Kubernetes
+
+ kubectl run orcl --image=gokcenk/oracledbtester -it --rm    
 
 ###  5.2. <a name='InOpenshift'></a>In Openshift
 
+ kubectl run orcl --image=gokcenk/oracledbtester -it --rm    
+
 ##  6. <a name='RunJarVerison'></a>How can you run container version?
+
+java -jar OracleTestConnection.jar
+
