@@ -1,6 +1,4 @@
-# Oracle Database Connection Tester in Container * 🧿
-
-Runnable container or standalone.
+# Oracle Database Connection Tester in Container * 
 
 <!-- vscode-markdown-toc -->
 
@@ -23,12 +21,11 @@ Runnable container or standalone.
 
 # How to test oracle database connection in 2 minutes...
 
-
 ***Disclaimer:** If you are planning to use this standalone jar version please check your java version in your enviorment..*
 
 ##  1. <a name='Summary'></a>Summary
 
-This asset is created to show how to test oracle database with in 2 minutes. 
+This asset is created to show how to test oracle database with in 2 minutes. There are two different options you can select Runnable container version or standalone jar version.
 
 Sometimes deployment processes take long time so it is long time to take results sucsess or fail.For example some deployment with using OpenShift operators take 30minutes to complete it. They we need to check pre-requirments before the deployment processes.
 
@@ -70,9 +67,13 @@ If you want to selet once, the program execute only it, if you enter the "ALL" k
 	For Jar version;
 		1.8 Java JRE, Oracle Databese version 19x 
 	For Contanirazed version;
-		
+		Openshift 3.x or newest, Docker 17.x or newest,Kubernetes 1.x or newest.
 
 ##  5. <a name='RunContainer'></a>How can you run container version?
+
+I used IBM JAVA container for based of this program. 
+
+ docker pull gokcenk/oracletestconnection
 
 ###  5.1. <a name='InDocker'></a>In Docker
 
@@ -89,4 +90,7 @@ If you want to selet once, the program execute only it, if you enter the "ALL" k
 ##  6. <a name='RunJarVerison'></a>How can you run container version?
 
 java -jar OracleTestConnection.jar
+
+
+🧿
 
