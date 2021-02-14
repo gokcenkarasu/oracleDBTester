@@ -64,15 +64,17 @@ If you want to selet once, the program execute only it, if you enter the "ALL" k
 
 ##  4. <a name='PreRequirements'></a>Pre-Requirments
 <br/>
-
 	For Jar version; 
-		1.8 Java JRE, Oracle Databese version 19x <br/>
-	For Contanirazed version;<br/>
-		Openshift 3.x or newest, Docker 17.x or newest,Kubernetes 1.x or newest.<br/>
+		1.8 Java JRE, Oracle Databese version 19x
+	For Contanirazed version;
+		Openshift 3.x or newest, Docker 17.x or newest,Kubernetes 1.x or newest.
+<br/>
 
 ##  5. <a name='RunContainer'></a>How can you run container version?
 
-I used IBM JAVA container for based of this program. [Oracle Test Connection Docker Hub Link] (https://hub.docker.com/repository/docker/gokcenk/oracledbtester)
+I used IBM JAVA container for based of this program.
+
+[Oracle Test Connection Docker Hub Link] (https://hub.docker.com/repository/docker/gokcenk/oracledbtester)
 
  `docker pull gokcenk/oracletestconnection`
 
