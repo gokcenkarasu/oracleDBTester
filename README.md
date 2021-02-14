@@ -43,9 +43,9 @@ Both of them are using the same java codes that you can find details below.
 * I developed Javacode with 1.8 JDK in Eclipse development enviorment. 
  	There are 3 Classes to run this jar program. 
 	
-	**** 1- ConnectionInfo = This is static abstraction class to use collecting data from getting user.
-	**** 2- ConnectionOracle = This includes runnable method and is using to get some information from user. it has time units sleep method to wait thread until wait to runnig containers.
-	**** 3- OracleConTest = This is main method which include all conenctions methods.	
+	** 1- ConnectionInfo = This is static abstraction class to use collecting data from getting user.
+	** 2- ConnectionOracle = This includes runnable method and is using to get some information from user. it has time units sleep method to wait thread until wait to runnig containers. TimeUnit.SECONDS.sleep(8);`
+	** 3- OracleConTest = This is main method which include all conenctions methods.	
 	
 	
 	There are 3 diffrent approches tester to connection test
@@ -63,33 +63,34 @@ If you want to selet once, the program execute only it, if you enter the "ALL" k
 	I used Java 1.8 so If you are planning to use this standalone jar version please check your java version in your enviorment. Also want to use container version of program , you have to at least on of Docker, Podman, Kubernetes or Openshift platforms.  
 
 ##  4. <a name='PreRequirements'></a>Pre-Requirments
+<br/>
 
-	For Jar version;
-		1.8 Java JRE, Oracle Databese version 19x 
-	For Contanirazed version;
-		Openshift 3.x or newest, Docker 17.x or newest,Kubernetes 1.x or newest.
+	For Jar version; 
+		1.8 Java JRE, Oracle Databese version 19x <br/>
+	For Contanirazed version;<br/>
+		Openshift 3.x or newest, Docker 17.x or newest,Kubernetes 1.x or newest.<br/>
 
 ##  5. <a name='RunContainer'></a>How can you run container version?
 
-I used IBM JAVA container for based of this program. 
+I used IBM JAVA container for based of this program. [Oracle Test Connection Docker Hub Link] (https://hub.docker.com/repository/docker/gokcenk/oracledbtester)
 
- docker pull gokcenk/oracletestconnection
+ `docker pull gokcenk/oracletestconnection`
 
 ###  5.1. <a name='InDocker'></a>In Docker
 
- docker run -it --rm oracledbtester
+ `docker run -it --rm oracledbtester`
 
 ###  5.2. <a name='InKubernetes'></a>In Kubernetes
 
- kubectl run orcl --image=gokcenk/oracledbtester -it --rm    
+ `kubectl run orcl --image=gokcenk/oracledbtester -it --rm`    
 
 ###  5.2. <a name='InOpenshift'></a>In Openshift
 
- kubectl run orcl --image=gokcenk/oracledbtester -it --rm    
+ `kubectl run orcl --image=gokcenk/oracledbtester -it --rm`    
 
 ##  6. <a name='RunJarVerison'></a>How can you run container version?
 
-java -jar OracleTestConnection.jar
+  `java -jar OracleTestConnection.jar`
 
 
 🧿
