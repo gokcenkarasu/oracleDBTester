@@ -6,7 +6,7 @@
 * 1.. [Summary](#Summary)
 * 2.. [Java Code](#JavaCode)
 * 3.. [Product Versions](#ProductVersions)
-* 4.. [PreRequirements](#PreRequirements)
+* 4.. [Pre-Requirements](#PreRequirements)
 * 5.. [How to run container version](#RunContainer)
 	* 5.1. [In Docker](#InDocker)
 	* 5.2. [In Kubernetes](#InKubernetes)
@@ -63,7 +63,7 @@ This is 1.3 version of the program.
 	
 I used Java 1.8 so If you are planning to use this standalone jar version please check your java version in your environment. Also if you want to use container version of the program, you need to have to at least one of these platforms: Docker, Podman, Kubernetes or Openshift.  
 
-##  4. <a name='PreRequirements'></a>Pre-Requirments
+##  4. <a name='PreRequirements'></a>Pre-Requirements
 <br/>
 
 	* For Jar version; 
