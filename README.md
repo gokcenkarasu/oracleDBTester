@@ -3,10 +3,6 @@
 
 <!-- vscode-markdown-toc -->
 
-* 1. 1
-* 2. List item
-
-
 * 1. [Summary](#Summary)
 * 2. [Java Code](#JavaCode)
 * 3. [Product Versions](#ProductVersions)
