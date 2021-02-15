@@ -1,3 +1,4 @@
+
 # Oracle Database Connection Tester in Container 
 
 <!-- vscode-markdown-toc -->
@@ -21,7 +22,7 @@
 
 # How to test oracle database connection in 2 minutes
 
-***Disclaimer:** If you are planning to use this standalone jar version please check your java version in your environment*
+> **Disclaimer:** If you are planning to use this standalone jar version please check your java version in your environment*
 
 ##  1. <a name='Summary'></a>Summary
 
@@ -34,14 +35,14 @@ This assset helps to test oracle db connection on containerized systems.
 
 There are 2 different options to use this tester:
 	
-	*** Fist one is contianer base system. 
-	*** Second one is Jar base system. 
+> * Fist one is contianer base system. 
+> * Second one is Jar base system. 
 	
 Both of them are using the same java codes of which you can find the details below. 
 
 ##  2. <a name='JavaCode'></a>Java Code
 
-* I developed Javacode with 1.8 JDK in Eclipse development environment. 
+*  I developed Javacode with 1.8 JDK in Eclipse development environment. 
  	
 	There are 3 Classes to run this jar program. 
 	
@@ -51,20 +52,19 @@ Both of them are using the same java codes of which you can find the details bel
 	
 	** 3- OracleConTest = This is main method which include all conenctions methods.
 	
-	
-	There are 3 different approaches for connection test:
-		1. It will generate URL string which it will get parameters from you
-		2. It will generate URL string without Username and Password
-		3. It will generate URL string and properties
+> 		There are 3 different approaches for connection test:
+>		1. It will generate URL string which it will get parameters from you
+>		2. It will generate URL string without Username and Password
+>		3. It will generate URL string and properties
 
 If you select one of those options, the program executes only the selected one, if you enter "ALL" keyword, the program executes all of them to test it. 
 
  
 ##  3. <a name='ProductVersions'></a>Product Versions
 	
-	This is 1.3 version of the program. 
+This is 1.3 version of the program. 
 	
-	I used Java 1.8 so If you are planning to use this standalone jar version please check your java version in your environment. Also if you want to use container version of the program, you need to have to at least one of these platforms: Docker, Podman, Kubernetes or Openshift.  
+I used Java 1.8 so If you are planning to use this standalone jar version please check your java version in your environment. Also if you want to use container version of the program, you need to have to at least one of these platforms: Docker, Podman, Kubernetes or Openshift.  
 
 ##  4. <a name='PreRequirements'></a>Pre-Requirments
 <br/>
@@ -78,26 +78,25 @@ If you select one of those options, the program executes only the selected one, 
 
 I used IBM JAVA container as a base of this program.
 
-[Oracle Test Connection Docker Hub Link] (https://hub.docker.com/repository/docker/gokcenk/oracledbtester)
+[Oracle Test Connection Docker Hub](https://hub.docker.com/repository/docker/gokcenk/oracledbtester)
 
- `docker pull gokcenk/oracletestconnection`
+> `docker pull gokcenk/oracletestconnection`
 
 ###  5.1. <a name='InDocker'></a>In Docker
 
- `docker run -it --rm oracledbtester`
+>  `docker run -it --rm oracledbtester`
 
 ###  5.2. <a name='InKubernetes'></a>In Kubernetes
 
- `kubectl run orcl --image=gokcenk/oracledbtester -it --rm`    
+> `kubectl run orcl --image=gokcenk/oracledbtester -it --rm`    
 
 ###  5.2. <a name='InOpenshift'></a>In Openshift
 
- `kubectl run orcl --image=gokcenk/oracledbtester -it --rm`    
+> `kubectl run orcl --image=gokcenk/oracledbtester -it --rm`    
 
 ##  6. <a name='RunJarVerison'></a>How to run container version?
 
-  `java -jar OracleTestConnection.jar`
+ > `java -jar OracleTestConnection.jar`
 
 
 🧿
-
