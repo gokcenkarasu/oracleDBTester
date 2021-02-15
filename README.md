@@ -65,9 +65,9 @@ I used Java 1.8 so If you are planning to use this standalone jar version please
 
 ##  4. <a name='PreRequirements'></a>Pre-Requirments
 <br/>
-	For Jar version; 
+	* For Jar version; 
 		1.8 Java JRE, Oracle Databese version 19x
-	For Contanirazed version;
+	* For Contanirazed version;
 		Openshift 3.x or newer versions, Docker 17.x or newer versions, Kubernetes 1.x or newer versions.
 <br/>
 
