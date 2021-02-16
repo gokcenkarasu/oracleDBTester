@@ -37,6 +37,9 @@ There are 2 different options to use this tester:
 	
 Both of them are using the same java codes of which you can find the details below. 
 
+
+![Alt text](images/screenShotTerminal.png "oracedbtester")
+
 ##  2. <a name='JavaCode'></a>Java Code
 
 *  I developed Javacode with 1.8 JDK in Eclipse development environment. 
